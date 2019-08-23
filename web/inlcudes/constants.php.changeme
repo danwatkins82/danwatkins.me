@@ -1,0 +1,13 @@
+<?php
+
+/* Connect Constants */
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
+
+/* File structure constants */
+define('LOCATOR',   '');
+define('CLASSES',   LOCATOR."");
+define('FUNCTIONS', LOCATOR."");
+define('INCLUDES',   LOCATOR."/includes");
+?>
