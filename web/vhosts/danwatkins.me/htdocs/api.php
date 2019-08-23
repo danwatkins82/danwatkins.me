@@ -3,7 +3,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1); 
 error_reporting(E_ALL);
 
-include_once('/srv/data/web/vhosts/danwatkins.me/connect_vars.php');
+include_once('../../../includes/constants.php');
+include_once(INCLUDES."/connect_vars.php");
 
 $query = 'SELECT *
 			FROM skills';

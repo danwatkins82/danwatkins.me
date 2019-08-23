@@ -7,10 +7,9 @@ container.setAttribute('class', 'container')
 
 app.appendChild(container)
 
-
 var request = new XMLHttpRequest()
 
-request.open('GET', 'https://danwatkins.me/api.php', true)
+request.open('GET', 'api.php', true)
 
 request.onload = function() {
 	var data = JSON.parse(this.response)

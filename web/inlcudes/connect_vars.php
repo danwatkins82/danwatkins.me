@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db   = '';
-$user = '';
-$pass = '' ;
+$db   = DB_NAME;
+$user = DB_USER;
+$pass = DB_PASS;
 $charset = 'utf8mb4';
 
 $options = [
